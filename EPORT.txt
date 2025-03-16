@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head> <title>ICT Eportfolio</title>
+
+
+<style>
+
+    .quiz-container {
+      background-color:#C19A6B;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      text-align: center;
+    }
+
+    input[type="text"] {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="button"], input[type="reset"] {
+      background-color: #7851A9;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 80%;
+      margin-top: 10px;
+    }
+
+    input[type="button"]:hover, input[type="reset"]:hover {
+      background-color: #7851A9;
+    }
+
+    .result {
+      margin-top: 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .correct {
+      color: green;
+    }
+
+    .incorrect {
+      color: red;
+    }
+  
+</style>
+
+ </head>
+
+<body style="background-image:url('background.jpg'); background-attachment:fixed; background-repeat:no-repeat; background-size:100% 100%; font-family:Courier New">
+
+<table width="100%" style="font-size:25px;" cellpadding="10px" background="gogh.jpg" bordercolor="#2d150c" border="10"
+
+<tbody>
+<tr valign="top">
+<td bgcolor="#6d3e1c">
+
+<h1 align="center" style="color:#C19A6B;">PORTFOLIO
+
+<button onclick="showAlert()" style="width: 200px; height: 50px; background-color:#ffcddd; #ffcddd; border: none; font-size: 16px; border-radius: 5px;">Clicky!</button>
+
+<script> 
+        function showAlert() {
+            alert("Welcome to my E-Portfolio! made by Sharpay Layug! :)");
+        }
+</script>
+</h1>
+
+<h1 align="center" style="color:#2d150c;">Know more about me!</h1>
+
+<hr color="#fffddd">
+
+<h3 align="center" style="color:#2d150c;"> This is 4th quarter Sharpay! I lot of things happened this quarter,good and bad but I still appreciate everything  because this helped me improve myself. I also did some things that I would think that I would do. Like for example running for the position of grade 10 level representative. And unexpectedly won,and I also help direct I mean I directed almost everything in our play which is my dream. Overall I would rate this 9/10.
+ </h3>
+
+<hr color="#fffddd">
+
+
+<h1 align="center" style="color:#2d150c;">LESSONS</h1>
+
+
+<!-- javascript -->
+
+
+<div class="quiz-container">
+    <h2>What is My Favorite Pet?</h2>
+    <form name="leastFavoriteQuiz">
+        <input type="text" name="answer" placeholder="Enter your answer here">
+        <input type="button" value="Submit" onclick="checkLeastFavoriteAnswer()">
+        <input type="reset" value="Clear">
+    </form>
+    <div id="leastFavoriteResult" class="result"></div>
+</div>
+
+
+
+
+<br> <br> <br>
+
+
+<div class="quiz-container">
+    <h2>What is My Favorite Color?</h2>
+    <form name="favoriteQuiz">
+        <input type="text" name="answer" placeholder="Enter your answer here">
+        <input type="button" value="Submit" onclick="checkFavoriteAnswer()">
+        <input type="reset" value="Clear">
+    </form>
+    <div id="favoriteResult" class="result"></div>
+</div>
+
+
+
+<script type="text/javascript">
+
+    function checkFavoriteAnswer() {
+        const userAnswer = document.favoriteQuiz.answer.value.trim();
+
+
+        const resultDiv = document.getElementById("favoriteResult");
+        resultDiv.style.display = 'block';
+
+    
+        if (userAnswer === "Purple") {
+            resultDiv.textContent = "Correct! Purple is my favorite.";
+            resultDiv.className = 'result correct';
+        } else {
+            resultDiv.textContent = "Not quite, try again.";
+            resultDiv.className = 'result incorrect';
+        }
+    }
+
+
+    function checkLeastFavoriteAnswer() {
+        const userAnswer = document.leastFavoriteQuiz.answer.value.trim();
+
+        const resultDiv = document.getElementById("leastFavoriteResult");
+        resultDiv.style.display = 'block';
+
+   
+        if (userAnswer === "Cat") {
+            resultDiv.textContent = "Correct! I love cats!";
+            resultDiv.className = 'result correct';
+        } else {
+            resultDiv.textContent = "Not quite, try again.";
+            resultDiv.className = 'result incorrect';
+        }
+    }
+</script>
+
+
+
+
+
+</td>
+<td width="80%">
+<table align="center" border="10" background="aa.jpg" bordercolor="#2d150c" cellpadding="30px" width="100%">
+<tbody> 
+
+<tr> 
+<td colspan="3"> </td> </tr>
+<h1 style="color:red; text-align:center;">ACTIVITIES</h1>
+<tr>
+<td bgcolor="#a0713b" colspan="2" align="center">
+<h2 style="text-align:center;color:#6d3e1c;">!! ONE ACT PLAY PRACTICE !!<br> <br> I’m so proud of my class and myself for pulling off this play. I still don’t know the outcome of it but this is the last project of my class
+</h2>
+</td>
+<td bgcolor="#a0713b" colspan="2" align="center">
+<h2 style="text-align:center;color:#6d3e1c;"> <img src="oap.png" width="60%"> </h2>
+</td>
+</tr>
+
+<tr> 
+<td colspan="3"> </td> </tr>
+
+<tr>
+<td bgcolor="#a0713b" colspan="2" align="center">
+<h2 style="text-align:center;color:#6d3e1c;">!! RESEARCH DEFENCE !! <br> <br> One thing I got to say,I never liked research but I’m glad it’s over
+</h2>
+</td>
+<td bgcolor="#a0713b" colspan="2" align="center">
+<h2 style="text-align:center;color:#6d3e1c;"> <img src="research.jpg" width="60%"> </h2>
+</td>
+</tr>
+
+<tr> 
+<td colspan="3"> </td> </tr>
+
+<tr>
+<td bgcolor="#a0713b" colspan="2" align="center">
+<h2 style="text-align:center;color:#6d3e1c;">!! STREET DANCE !! <br> <br> BANG BANG BANG! I really love this project because I get to bond with my favorite people and we won. And most importantly I tried something new!!
+</h2>
+</td>
+<td bgcolor="#a0713b" colspan="2" align="center">
+<h2 style="text-align:center;color:#6d3e1c;"> <img src="apex.jpg" width="60%"> </h2>
+</td>
+</tr>
+
+<tr> 
+<td colspan="3"> </td> </tr>
+<tr>
+<td bgcolor="#a0713b" colspan="2" align="center">
+<h2 style="text-align:center;color:#6d3e1c;">!! MITING DE AVANCE !! <br> <br> This day was crazy, I wasn’t really gonna run for the position but look at where we are now.
+</h2>
+</td>
+<td bgcolor="#a0713b" colspan="2" align="center">
+<h2 style="text-align:center;color:#6d3e1c;"><img src="mda.jpg" width="60%"> <br> <img src="campaign.jpg" width="60%"></h2>
+</td>
+</tr>
+
+ </tbody>
+</table>
+</p>
+</body>
+</html>
