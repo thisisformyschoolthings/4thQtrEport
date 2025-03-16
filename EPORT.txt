@@ -173,7 +173,7 @@
 </h2>
 </td>
 <td bgcolor="#a0713b" colspan="2" align="center">
-<h2 style="text-align:center;color:#6d3e1c;"> <img src="oap.png" width="60%"> </h2>
+<h2 style="text-align:center;color:#6d3e1c;"> <img src="oap.jpg" width="60%"> </h2>
 </td>
 </tr>
 
@@ -199,7 +199,7 @@
 </h2>
 </td>
 <td bgcolor="#a0713b" colspan="2" align="center">
-<h2 style="text-align:center;color:#6d3e1c;"> <img src="apex.JPG" width="60%"> </h2>
+<h2 style="text-align:center;color:#6d3e1c;"> <img src="apex.jpg" width="60%"> </h2>
 </td>
 </tr>
 
@@ -211,7 +211,7 @@
 </h2>
 </td>
 <td bgcolor="#a0713b" colspan="2" align="center">
-<h2 style="text-align:center;color:#6d3e1c;"><img src="mda.JPG" width="60%"> <br> <img src="campaign.JPG" width="60%"></h2>
+<h2 style="text-align:center;color:#6d3e1c;"><img src="mda.jpg" width="60%"> <br> <img src="campaign.jpg" width="60%"></h2>
 </td>
 </tr>
 
